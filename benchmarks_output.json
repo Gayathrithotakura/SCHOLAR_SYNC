@@ -1,0 +1,414 @@
+{
+  "metadata": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "python_version": "3.11.1",
+    "total_benchmark_runs": 9
+  },
+  "results": [
+    {
+      "scenario_id": "SMALL",
+      "scenario_name": "Small Workload (Focused Module)",
+      "strategy_name": "Greedy EDF-CW",
+      "task_count": 6,
+      "total_task_hours": 17.5,
+      "horizon_days": 7,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 0.1532,
+        "mean": 0.1545,
+        "min": 0.148,
+        "max": 0.1696,
+        "std_dev": 0.0064,
+        "trials": [
+          0.1696,
+          0.1602,
+          0.1555,
+          0.1524,
+          0.15,
+          0.1511,
+          0.1553,
+          0.1541,
+          0.1488,
+          0.148
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 17.5,
+        "remaining_hours": 0.0,
+        "completed_tasks": 6,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 6,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.6034,
+        "daily_mean_hours": 3.5,
+        "daily_std_hours": 1.0,
+        "cognitive_load_index": 60.5
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "SMALL",
+      "scenario_name": "Small Workload (Focused Module)",
+      "strategy_name": "Dynamic Programming 0/1 Knapsack",
+      "task_count": 6,
+      "total_task_hours": 17.5,
+      "horizon_days": 7,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 0.1723,
+        "mean": 0.1734,
+        "min": 0.1665,
+        "max": 0.1883,
+        "std_dev": 0.0069,
+        "trials": [
+          0.1883,
+          0.1757,
+          0.1744,
+          0.1689,
+          0.1701,
+          0.1665,
+          0.1676,
+          0.1665,
+          0.1774,
+          0.1786
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 17.5,
+        "remaining_hours": 0.0,
+        "completed_tasks": 6,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 6,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.6034,
+        "daily_mean_hours": 3.5,
+        "daily_std_hours": 0.89,
+        "cognitive_load_index": 60.5
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "SMALL",
+      "scenario_name": "Small Workload (Focused Module)",
+      "strategy_name": "Rolling-Horizon Hybrid Strategy",
+      "task_count": 6,
+      "total_task_hours": 17.5,
+      "horizon_days": 7,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 0.299,
+        "mean": 0.3006,
+        "min": 0.283,
+        "max": 0.3382,
+        "std_dev": 0.0183,
+        "trials": [
+          0.2934,
+          0.306,
+          0.3046,
+          0.3181,
+          0.3095,
+          0.283,
+          0.283,
+          0.2865,
+          0.3382,
+          0.2836
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 17.5,
+        "remaining_hours": 0.0,
+        "completed_tasks": 6,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 6,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.6034,
+        "daily_mean_hours": 3.5,
+        "daily_std_hours": 1.0,
+        "cognitive_load_index": 60.5
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "MEDIUM",
+      "scenario_name": "Medium Workload (Full Semester Milestone)",
+      "strategy_name": "Greedy EDF-CW",
+      "task_count": 16,
+      "total_task_hours": 48.5,
+      "horizon_days": 14,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 0.5693,
+        "mean": 0.5758,
+        "min": 0.551,
+        "max": 0.6519,
+        "std_dev": 0.0306,
+        "trials": [
+          0.5671,
+          0.5715,
+          0.5597,
+          0.551,
+          0.5523,
+          0.553,
+          0.5801,
+          0.5995,
+          0.5717,
+          0.6519
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 48.5,
+        "remaining_hours": 0.0,
+        "completed_tasks": 16,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 16,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.7823,
+        "daily_mean_hours": 4.04,
+        "daily_std_hours": 1.01,
+        "cognitive_load_index": 191.25
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "MEDIUM",
+      "scenario_name": "Medium Workload (Full Semester Milestone)",
+      "strategy_name": "Dynamic Programming 0/1 Knapsack",
+      "task_count": 16,
+      "total_task_hours": 48.5,
+      "horizon_days": 14,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 0.5343,
+        "mean": 0.5785,
+        "min": 0.5258,
+        "max": 0.9025,
+        "std_dev": 0.117,
+        "trials": [
+          0.5407,
+          0.5407,
+          0.536,
+          0.5286,
+          0.5315,
+          0.5325,
+          0.5293,
+          0.5258,
+          0.9025,
+          0.6178
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 48.5,
+        "remaining_hours": 0.0,
+        "completed_tasks": 16,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 16,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.7823,
+        "daily_mean_hours": 4.04,
+        "daily_std_hours": 0.81,
+        "cognitive_load_index": 191.25
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "MEDIUM",
+      "scenario_name": "Medium Workload (Full Semester Milestone)",
+      "strategy_name": "Rolling-Horizon Hybrid Strategy",
+      "task_count": 16,
+      "total_task_hours": 48.5,
+      "horizon_days": 14,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 1.0351,
+        "mean": 1.0386,
+        "min": 1.0212,
+        "max": 1.0814,
+        "std_dev": 0.0182,
+        "trials": [
+          1.0369,
+          1.032,
+          1.0365,
+          1.0226,
+          1.0348,
+          1.0212,
+          1.0582,
+          1.0814,
+          1.0353,
+          1.027
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 48.5,
+        "remaining_hours": 0.0,
+        "completed_tasks": 16,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 16,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.7823,
+        "daily_mean_hours": 4.04,
+        "daily_std_hours": 0.93,
+        "cognitive_load_index": 191.25
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "LARGE",
+      "scenario_name": "Large Workload (Comprehensive Semester Scope)",
+      "strategy_name": "Greedy EDF-CW",
+      "task_count": 32,
+      "total_task_hours": 101.0,
+      "horizon_days": 30,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 1.3657,
+        "mean": 1.3789,
+        "min": 1.3384,
+        "max": 1.4411,
+        "std_dev": 0.0382,
+        "trials": [
+          1.4411,
+          1.4308,
+          1.38,
+          1.3502,
+          1.3439,
+          1.3566,
+          1.3384,
+          1.3529,
+          1.4202,
+          1.3748
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 101.0,
+        "remaining_hours": 0.0,
+        "completed_tasks": 32,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 32,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.7399,
+        "daily_mean_hours": 4.39,
+        "daily_std_hours": 1.07,
+        "cognitive_load_index": 298.0
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "LARGE",
+      "scenario_name": "Large Workload (Comprehensive Semester Scope)",
+      "strategy_name": "Dynamic Programming 0/1 Knapsack",
+      "task_count": 32,
+      "total_task_hours": 101.0,
+      "horizon_days": 30,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 1.3376,
+        "mean": 1.3597,
+        "min": 1.3245,
+        "max": 1.4599,
+        "std_dev": 0.0479,
+        "trials": [
+          1.4599,
+          1.3339,
+          1.3332,
+          1.3245,
+          1.328,
+          1.3719,
+          1.3413,
+          1.3297,
+          1.342,
+          1.4324
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 94.75,
+        "remaining_hours": 6.25,
+        "completed_tasks": 30,
+        "unscheduled_tasks": 2,
+        "completion_rate": 0.9375,
+        "on_time_tasks": 30,
+        "on_time_rate": 0.9375,
+        "capacity_utilization": 0.6941,
+        "daily_mean_hours": 3.79,
+        "daily_std_hours": 0.86,
+        "cognitive_load_index": 269.25
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    },
+    {
+      "scenario_id": "LARGE",
+      "scenario_name": "Large Workload (Comprehensive Semester Scope)",
+      "strategy_name": "Rolling-Horizon Hybrid Strategy",
+      "task_count": 32,
+      "total_task_hours": 101.0,
+      "horizon_days": 30,
+      "repetitions": 10,
+      "latencies_ms": {
+        "median": 2.762,
+        "mean": 2.829,
+        "min": 2.7408,
+        "max": 3.338,
+        "std_dev": 0.1827,
+        "trials": [
+          2.7761,
+          2.7623,
+          2.7557,
+          2.7408,
+          2.8634,
+          2.8059,
+          3.338,
+          2.7617,
+          2.7429,
+          2.7431
+        ]
+      },
+      "schedule_performance": {
+        "scheduled_hours": 101.0,
+        "remaining_hours": 0.0,
+        "completed_tasks": 32,
+        "unscheduled_tasks": 0,
+        "completion_rate": 1.0,
+        "on_time_tasks": 32,
+        "on_time_rate": 1.0,
+        "capacity_utilization": 0.7399,
+        "daily_mean_hours": 4.39,
+        "daily_std_hours": 0.87,
+        "cognitive_load_index": 298.0
+      },
+      "validation": {
+        "is_valid": true,
+        "violations": []
+      }
+    }
+  ]
+}

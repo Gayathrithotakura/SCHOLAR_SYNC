@@ -1,0 +1,10 @@
+scenario_id,strategy_name,task_count,total_task_hours,horizon_days,median_latency_ms,min_latency_ms,max_latency_ms,std_latency_ms,scheduled_hours,remaining_hours,completed_tasks,completion_rate,on_time_rate,capacity_utilization,daily_mean_hours,daily_std_hours,cognitive_load_index,is_valid
+SMALL,Greedy EDF-CW,6,17.50,7,0.1532,0.1480,0.1696,0.0064,17.50,0.00,6/6,100.0%,100.0%,60.3%,3.50,1.00,60.50,true
+SMALL,Dynamic Programming 0/1 Knapsack,6,17.50,7,0.1723,0.1665,0.1883,0.0069,17.50,0.00,6/6,100.0%,100.0%,60.3%,3.50,0.89,60.50,true
+SMALL,Rolling-Horizon Hybrid Strategy,6,17.50,7,0.2990,0.2830,0.3382,0.0183,17.50,0.00,6/6,100.0%,100.0%,60.3%,3.50,1.00,60.50,true
+MEDIUM,Greedy EDF-CW,16,48.50,14,0.5693,0.5510,0.6519,0.0306,48.50,0.00,16/16,100.0%,100.0%,78.2%,4.04,1.01,191.25,true
+MEDIUM,Dynamic Programming 0/1 Knapsack,16,48.50,14,0.5343,0.5258,0.9025,0.1170,48.50,0.00,16/16,100.0%,100.0%,78.2%,4.04,0.81,191.25,true
+MEDIUM,Rolling-Horizon Hybrid Strategy,16,48.50,14,1.0351,1.0212,1.0814,0.0182,48.50,0.00,16/16,100.0%,100.0%,78.2%,4.04,0.93,191.25,true
+LARGE,Greedy EDF-CW,32,101.00,30,1.3657,1.3384,1.4411,0.0382,101.00,0.00,32/32,100.0%,100.0%,74.0%,4.39,1.07,298.00,true
+LARGE,Dynamic Programming 0/1 Knapsack,32,101.00,30,1.3376,1.3245,1.4599,0.0479,94.75,6.25,30/32,93.8%,93.8%,69.4%,3.79,0.86,269.25,true
+LARGE,Rolling-Horizon Hybrid Strategy,32,101.00,30,2.7620,2.7408,3.3380,0.1827,101.00,0.00,32/32,100.0%,100.0%,74.0%,4.39,0.87,298.00,true
